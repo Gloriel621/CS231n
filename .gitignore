@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.gz
+MNIST/Dataset/MNIST/raw/train-labels-idx1-ubyte
+MNIST/Dataset/MNIST/raw/train-images-idx3-ubyte
+MNIST/Dataset/MNIST/raw/t10k-labels-idx1-ubyte
+MNIST/Dataset/MNIST/raw/t10k-images-idx3-ubyte
