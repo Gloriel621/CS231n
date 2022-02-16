@@ -2,6 +2,18 @@ import torch.nn as nn
 
 batch_size = 256
 
+# torch.nn.Conv2d(
+#     in_channels, # 입력 채널의 수
+#     out_channels, # 출력 채널의 수 -> 즉 필터의 개수를 알 수 있음
+#     kernel_size, # 커널의 크기 = 필터의 크기
+#     stride=1, # 기본값들
+#     padding=0, 
+#     dilation=1, 
+#     groups=1, 
+#     bias=True, 
+#     padding_mode='zeros'
+# )
+
 class CNN(nn.Module):
     def __init__(self):
         super(CNN, self).__init__()
