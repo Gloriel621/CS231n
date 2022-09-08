@@ -1,5 +1,5 @@
-# cs231n
-cs231n(컴퓨터 비전) 관련 예시 코드 저장소
+# CS231n
+some codes of computer vision exercises
 
 1. MNIST : normal CNN, classification of MNIST dataset
 
